@@ -1,20 +1,18 @@
 {
-  "name": "sails-sqlserver",
+  "name": "waterline-mssql",
   "version": "0.10.9",
-  "description": "Official SQL Server Adapter for Sails / Waterline",
+  "description": "MS SQL Server Adapter for Waterline",
   "main": "lib/adapter.js",
   "scripts": {
     "test": "node test/integration/runner -R spec -b"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cnect/sails-sqlserver.git"
+    "url": "git://github.com/waterlinejs/mssql-adapter.git"
   },
   "keywords": [
-    "cnect",
-    "sails",
-    "sails-mssql",
-    "sails-sqlserver",
+    "trails",
+    "trailsjs",
     "sql server",
     "sqlserver",
     "microsoft",
@@ -27,7 +25,6 @@
   ],
   "author": "Travis Webb <tjwebb@cnectdata.com>",
   "contributors": [
-    "balderdashy",
     "Stuart Welham",
     "wxactly",
     "Seich",
@@ -53,7 +50,7 @@
     "mocha": "*"
   },
   "waterlineAdapter": {
-    "type": "sails-sqlserver",
+    "type": "waterline-mssql",
     "interfaces": [
       "semantic",
       "queryable",
